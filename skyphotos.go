@@ -33,7 +33,7 @@ if dirExists(sourceFolder){
   return sF,oF
 }
 //=================================
-//check weather Directory is exists
+///check weather Directory is exists
  func dirExists(dir string) bool {
    info, err:=os.Stat(dir)
    if os.IsNotExist(err){
