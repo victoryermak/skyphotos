@@ -39,5 +39,5 @@ if dirExists(sourceFolder){
    if os.IsNotExist(err){
      return false
    }
-   return info.IsDir()
+   return true
  }
