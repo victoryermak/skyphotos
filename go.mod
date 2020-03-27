@@ -1,3 +1,3 @@
-module github/victoryermak/skyphotos
+module github.com/victoryermak/skyphotos
 
 go 1.14
